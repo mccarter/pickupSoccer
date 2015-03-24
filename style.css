@@ -1,0 +1,66 @@
+/* Login Page Styling */
+.body {
+  background-image: url('img/soccer_field.jpg');
+  background-position: center;  
+}
+
+.header-container h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 210px;
+}
+
+.button-container .fb-button{
+  display: block;
+  margin: auto;
+  margin-top: 260px;
+}
+
+
+/*.container {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.logo {
+  display: table;
+  margin: 0 auto 5%;
+}
+
+.logo img {
+  margin-top: 15%;
+}
+
+.slogan{
+  display: table;
+  margin: 0 auto;
+  font-size: 2em;
+}
+*/
+
+/*Creates overlay on signup page*/
+/*.overLay {
+  z-index: 1;
+  padding: 2em 0 3em 0;
+  background:rgba(0,0,10,0.55);
+}
+*/
+
+/*Add map image to login background*/
+/*.scroll-content.loginPage {
+  position: absolute;
+  background-image: url('../img/map.png');
+  background-repeat: no-repeat;
+}*/
+
+
+/*.overLay .logo {
+  margin-top: 15%;
+}
+
+.overLay h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 3.5em;
+  text-align: center;
+  margin-top: 6%
+}*/
