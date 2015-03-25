@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='pickupSoccer'>
 <head>
 	<title>Pickup @ Underhill Field</title>
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<!-- Custom CSS -->
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- AngularJS -->
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	
+</head>
+	
+<body>
+
+ <div ui-view></div>
+
+
+<!-- AngularJS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.js"></script>
 	<!-- Firebase -->
 	<script src="https://cdn.firebase.com/js/client/2.2.2/firebase.js"></script>
 	<!-- AngularFire -->
 	<script src="https://cdn.firebase.com/libs/angularfire/1.0.0/angularfire.min.js"></script>
-</head>
+	<!-- ui-router -->
+	<script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
 
-<body ng-app='pickupSoccer'>
-
-	<div class="main-container overLay">
-		<div class="header-container">
-	  	<h1>Pickup Connect</h1>
-	  </div>
-
-	  <div class="button-container">
-	  	<button class="btn btn-success btn-lg fb-button" ng-click="login()" type="submit"><b>Sign in with Facebook!</b></button>
-	  </div>
-	</div>
-
-
+	<!-- <script src='app/auth/auth.js'></script> CONTROLLERS HERE!!!!-->
+	<script src='app.js'></script>
+	<script src='views/add_number/addNumber.js'></script>
+	<script src='views/login/login.js'></script>
 </body>
 </html>
