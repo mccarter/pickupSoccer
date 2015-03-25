@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mccarter/pickupSoccer/issues"
   },
-  "homepage": "https://github.com/mccarter/pickupSoccer"
+  "homepage": "https://github.com/mccarter/pickupSoccer",
+  "dependencies": {
+    "angular-ui-router": "^0.2.13"
+  }
 }
